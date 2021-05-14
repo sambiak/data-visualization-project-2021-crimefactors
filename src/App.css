@@ -1,0 +1,26 @@
+.App p {
+  margin: 1.2em auto 0.8em;
+  max-width: 60em;
+}
+
+.App .side_by_side {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1.2em 0.4em 0.8em;
+}
+
+.App .side_by_side .section {
+  flex: 1 1;
+  align-self: flex-start;
+  min-width: 27em;
+  padding: 0 1.6em;
+  border-style: dashed;
+}
+
+.App .center {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+}
